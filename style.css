@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_div {
+  width: 75%;
+}
+.circle {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 120px solid #555;
+  position: absolute;
+  border-radius: 0 20px 20px;
+  margin: 2px;
+}
+
+button {
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  rotate: 90deg;
+}
+
+.circle:nth-child(2) {
+  position: absolute;
+  top: -4px;
+  left: 85px;
+  rotate: 154deg;
+}
+.circle:nth-child(3) {
+  position: absolute;
+  top: 1px;
+  left: 149px;
+  rotate: 218deg;
+}
+.circle:nth-child(4) {
+  position: absolute;
+  top: 61px;
+  left: 171px;
+  rotate: 282deg;
+}
+.circle:nth-child(5) {
+  top: 108px;
+  left: 127px;
+  rotate: 346deg;
+}
+.circle:nth-child(6) {
+  border-left: 46px solid transparent;
+  border-right: 46px solid transparent;
+  border-bottom: 132px solid #555;
+  top: 95px;
+  left: 100px;
+  rotate: 398deg;
+}
+.circle:nth-child(7) {
+  top: 60px;
+  left: 60px;
+  rotate: 45deg;
+}
+.circle:nth-child(8) {
+  top: 0px;
+  left: 50px;
+  rotate: 180deg -45deg;
+}
+
+.circle_div {
+  position: relative;
+  top: -50px;
+}
+
+.main_div {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  align-items: center;
+  height: 400px;
+}
+
+.main_div > div {
+  width: 50%;
+}
+
+.button_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.file_uploader {
+  position: relative;
+  top: 50px;
+}
